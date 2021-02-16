@@ -5,11 +5,13 @@ Home: https://github.com/thu-ml/tianshou
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tianshou-feedstock/blob/master/LICENSE.txt)
 
 Summary: Tianshou is an elegant, flexible, and superfast PyTorch deep reinforcement learning platform.
 
+Development: https://github.com/thu-ml/tianshou
 
+Documentation: https://tianshou.readthedocs.io/
 
 Current build status
 ====================
