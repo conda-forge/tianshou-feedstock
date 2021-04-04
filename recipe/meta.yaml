@@ -1,5 +1,5 @@
 {% set name = "tianshou" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/thu-ml/tianshou/releases/download/v{{ version }}/tianshou-{{ version }}.tar.gz
-  sha256: 2004139d492bf05779877bc4a1a2569450e3502d188404057e3bdbba85a6d725
+  sha256: 2504a3ff2502d4f07a9f7260d660a964f49e7d8b4835e72f2919ac87069c8efd
 
 build:
   number: 0
@@ -21,6 +21,7 @@ requirements:
   run:
     - python >=3.6
     - gym >=0.15.4
+    - numpy >=1.16.1
     - tqdm
     - tensorboard
     - pytorch >=1.4.0
