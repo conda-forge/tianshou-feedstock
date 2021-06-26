@@ -1,5 +1,5 @@
 {% set name = "tianshou" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/thu-ml/tianshou/releases/download/v{{ version }}/tianshou-{{ version }}.tar.gz
-  sha256: 2504a3ff2502d4f07a9f7260d660a964f49e7d8b4835e72f2919ac87069c8efd
+  sha256: c4236fffcdf4baf6ed65a9154430f937163a8435a92ec3d0a62ed69fd8d2388f
 
 build:
   number: 0
@@ -37,7 +37,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: Tianshou is an elegant, flexible, and superfast PyTorch deep reinforcement learning platform.
+  summary: Tianshou is an elegant, flexible, and superfast PyTorch deep reinforcement learning library.
   doc_url: https://tianshou.readthedocs.io/
   dev_url: https://github.com/thu-ml/tianshou
 
