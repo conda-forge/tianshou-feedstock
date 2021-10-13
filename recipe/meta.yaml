@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - gym >=0.15.4
+    - gym >=0.15.4,<0.20.0
     - numpy >=1.16.1
     - tqdm
     - tensorboard
