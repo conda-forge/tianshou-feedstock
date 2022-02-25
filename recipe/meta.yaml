@@ -27,7 +27,7 @@ requirements:
     - pytorch >=1.4.0
     - numba >=0.51.0
     - h5py >=2.10.0
-    - pettingzoo >= 1.15
+    - pettingzoo >=1.15
 
 test:
   imports:
