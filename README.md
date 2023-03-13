@@ -1,11 +1,11 @@
-About tianshou
-==============
+About tianshou-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tianshou-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/thu-ml/tianshou
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tianshou-feedstock/blob/main/LICENSE.txt)
 
 Summary: Tianshou is an elegant, flexible, and superfast PyTorch deep reinforcement learning library.
 
