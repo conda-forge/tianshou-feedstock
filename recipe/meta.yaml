@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/thu-ml/tianshou/releases/download/v{{ version }}/tianshou-{{ version }}.tar.gz
+  url: https://github.com/thu-ml/tianshou/archive/refs/tags/v{{ version }}.tar.gz
   sha256: df850cbe5e8430629d08380a235673f17412299b1fb3d94d6ef7d79d91d6cc19
 
 build:
