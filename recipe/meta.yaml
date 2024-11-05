@@ -1,13 +1,13 @@
 {% set name = "tianshou" %}
-{% set version = "0.5.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/thu-ml/tianshou/releases/download/v{{ version }}/tianshou-{{ version }}.tar.gz
-  sha256: aac1f2a268e443be4db25e9ea4eff4fbcebc6c15336e6c15dab7803b312d7519
+  url: https://github.com/thu-ml/tianshou/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: df850cbe5e8430629d08380a235673f17412299b1fb3d94d6ef7d79d91d6cc19
 
 build:
   number: 0
