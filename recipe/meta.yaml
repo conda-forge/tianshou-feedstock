@@ -10,16 +10,16 @@ source:
   sha256: aac1f2a268e443be4db25e9ea4eff4fbcebc6c15336e6c15dab7803b312d7519
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - gymnasium >=0.26.0
     - numpy >=1.16.1
     - tqdm
@@ -31,6 +31,8 @@ requirements:
     - packaging
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - tianshou
 
